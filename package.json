@@ -2,7 +2,7 @@
     "name": "sosu-web-client",
     "version": "1.0.0",
     "description": "안녕하세요..",
-    "main": "server/server.js",
+    "main": "sosu-web-client.js",
     "dependencies": {
       "app-module-path": "^2.2.0",
       "app-root-path": "^3.0.0",
@@ -18,7 +18,7 @@
       "session-file-store": "^1.5.0"
     },
     "scripts": {
-      "start": "set NODE_EVN=.env && node memo-server.js&"
+      "start": "set NODE_EVN=.env && node sosu-web-client.js&"
     }
   }
   
