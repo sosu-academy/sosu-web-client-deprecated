@@ -3,5 +3,5 @@ const router = express.Router();
 
 router.use("/view/account", require('./AcocuntRouter'))
 router.use("/view/error", require('./ErrorRouter'))
-router.use("/view/index",require('./IndexRouter'))
+router.use("/",require('./IndexRouter'))
 module.exports = router;
