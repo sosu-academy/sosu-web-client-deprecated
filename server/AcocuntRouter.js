@@ -14,16 +14,16 @@ router.get("/login", (req, res) => {
 /**
  * /view/account/sign-up
  */
-router.get("/sign-up",(req,res) => {
-    res.render(PAGE_PREFIX + 'register');
-    res.end();
-})
+// router.get("/sign-up",(req,res) => {
+//     res.render(PAGE_PREFIX + 'register');
+//     res.end();
+// })
 
 /**
- * /view/accont/reset-password
+ * /view/account/reset-password
  */
 router.get("/reset-password",(req,res) => {
-    res.render(PAGE_PREFIX + 'password');
+    res.render(PAGE_PREFIX + 'forgot-password');
     res.end();
 })
 
