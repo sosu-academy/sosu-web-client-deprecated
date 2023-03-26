@@ -9,6 +9,11 @@ router.get("/", (req, res) => {
     res.end();
 })
 
+router.get("/main", (req, res) => {
+    res.render('index');
+    res.end();
+})
+
 // [s] 임시 페이지
 /**
  * /tables
